@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+
+    android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Wifi Ip Is:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="#FF0303"
+        android:textStyle="bold"
+        android:id="@+id/Ip_Address"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Wifi Ip" />
+
+    <EditText
+        android:id="@+id/UpdateIpEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/ChangeIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change registered ip" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
